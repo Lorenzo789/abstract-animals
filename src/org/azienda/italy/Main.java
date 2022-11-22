@@ -107,7 +107,7 @@ public class Main {
 			
 			totalIncomeSum += yearIncome;
 			
-			avgCompanyCost = totalIncomeSum / 5;
+			avgCompanyCost = totalIncomeSum / 5 / (12);
 		}
 		System.out.println(maxEmploIncome);
 		System.out.println("|----------------------------|");
