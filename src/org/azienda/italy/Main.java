@@ -106,14 +106,18 @@ public class Main {
 			}
 			
 			totalIncomeSum += yearIncome;
+			
+			avgCompanyCost = totalIncomeSum / 5;
 		}
 		System.out.println(maxEmploIncome);
 		System.out.println("|----------------------------|");
 		System.out.println(minEmploIncome);
 		System.out.println("|----------------------------|");
-		System.out.println("Total Spend for the company");
+		System.out.println("Total Cost for the company");
 		System.out.println(totalIncomeSum);
 		System.out.println("|----------------------------|");
+		System.out.println("Avg Cost For Employee Boss Included");
+		System.out.println(avgCompanyCost);
 	}
 	
 }
